@@ -96,7 +96,7 @@ TEST_P(TestWithMarkSize,testWithTrueClean){
 		}
 }
 
-TEST_P(TestWithMarkSize, testWithFlaseClean){
+TEST_P(TestWithMarkSize, testWithFalseClean){
 	MarkSize size = GetParam();
 
 	//初始化TwoDimensionalMark和用来做对比的contrast,将他们全部用false填充
