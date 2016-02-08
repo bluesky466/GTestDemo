@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\gtest">
+      <UniqueIdentifier>{d34699a6-8277-4a6c-bcfc-ce01352cac31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gtest\internal">
+      <UniqueIdentifier>{0e5a000f-2a23-4390-8cac-64b1bada72c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TwoDimensionalMark.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest_pred_impl.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest_prod.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest-death-test.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest-message.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest-param-test.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest-printers.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest-spi.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest-test-part.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\gtest-typed-test.h">
+      <Filter>头文件\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-death-test-internal.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-filepath.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-internal.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-linked_ptr.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-param-util.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-param-util-generated.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-port.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-string.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-tuple.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\internal\gtest-type-util.h">
+      <Filter>头文件\gtest\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
