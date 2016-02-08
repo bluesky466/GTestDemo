@@ -58,14 +58,17 @@ private:
 	unsigned char* bit_marks_;
 
 	int computeMemorySize(int row, int col)const {
-		return row*col/8 + 1;
+		// >>3 == /8
+		return ((row*col) >> 3) + 1;
 	}
 
 	int computeByteIndex(int x, int y)const {
-		return (y * col_ + x) / 8;
+		// >>3 == /8
+		return (y * col_ + x) >> 3;
 	}
 
 	unsigned char computeByteOffset(int x, int y)const {
+		// &0x7 == %8 
 		return (y * col_ + x) & 0x7;
 	}
 };
